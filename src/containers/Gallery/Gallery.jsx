@@ -42,8 +42,8 @@ const Gallery = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
           mattis ipsum turpis elit elit scelerisque egestas mu.
         </p>
-        <button id='view-more' className="main-button">
-            View More
+        <button type="button" className="main-button">
+          View More
         </button>
       </div>
       <div className="gallery-images">
@@ -58,8 +58,8 @@ const Gallery = () => {
           })}
         </div>
         <div className="gallery-images-btns">
-            <BsFillArrowLeftCircleFill onClick={() => scroll("left")}/>
-            <BsFillArrowRightCircleFill onClick={() => scroll("right")}/>
+          <BsFillArrowLeftCircleFill role='button' onClick={() => scroll("left")} />
+          <BsFillArrowRightCircleFill role='button' onClick={() => scroll("right")} />
         </div>
       </div>
     </div>

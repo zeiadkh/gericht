@@ -7,9 +7,11 @@ const NewsLetter = () => {
     <div className="newsletter container sec__padding">
       <Secheading title="Newsletter" caught="Subscribe to Our Newsletter" />
       <p>And never miss latest Updates!</p>
-      <form action="" className='container'>
-        <input type="text" placeholder='Email Address'/>
-        <button id="subscribe" className="main-button">Subscribe</button>
+      <form action="" className="container">
+        <input type="text" placeholder="Email Address" />
+        <button type="button" className="main-button">
+          Subscribe
+        </button>
       </form>
     </div>
   );

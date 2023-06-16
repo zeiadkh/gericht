@@ -56,10 +56,10 @@ const Navbar = () => {
         <a href='/' className="nav-login-book">Book Table</a>
       </div>
       <div className="nav-links-small">
-        <CgMenuHotdog size={32} onClick={() => setToggeled(true)} />
+        <CgMenuHotdog role='button' size={32} onClick={() => setToggeled(true)} />
         {toggeled && (
           <div className="nav-links-small-container">
-            <IoRestaurantOutline size={27} onClick={() => setToggeled(false)} />
+            <IoRestaurantOutline role='button' size={27} onClick={() => setToggeled(false)} />
             <ul className="nav-links">
               <li>
                 <a href="#">Home</a>
