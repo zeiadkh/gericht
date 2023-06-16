@@ -15,7 +15,7 @@ const Hero = () => {
           volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
           aliquam amet tellus{" "}
         </p>
-        <button className="main-button">Explore Menu</button>
+        <button className="main-button" id='explore-menu' >Explore Menu</button>
       </div>
       <div className="hero-container-img">
         <img
