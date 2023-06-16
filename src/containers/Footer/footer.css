@@ -5,7 +5,7 @@
     flex: 1;
     text-align: center;
 }
-.footer h4{
+.footer h5{
     font-family: var(--font-main);
     font-size: 32px;
     font-weight: 400;

@@ -4,7 +4,7 @@ import Secheading from "../../components/Secheading/Secheading"
 
 const NewsLetter = () => {
   return (
-    <div className="newsletter container sec__padding">
+    <div className="newsletter container sec__padding" id='newsletter'>
       <Secheading title="Newsletter" caught="Subscribe to Our Newsletter" />
       <p>And never miss latest Updates!</p>
       <form action="" className="container">

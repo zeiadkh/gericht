@@ -5,7 +5,7 @@ import Secheading from "../../components/Secheading/Secheading"
 
 const Find = () => {
   return (
-    <div className="find sec__padding bg-primary container">
+    <div className="find sec__padding bg-primary container" id='findus'>
       <div className="find-content">
         <Secheading title="Contact" caught="Find Us" />
         <p>Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 7SG</p>

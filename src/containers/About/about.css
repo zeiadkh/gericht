@@ -32,7 +32,13 @@
 .about-container-about-us{
     text-align: right;
 }
-
+::-webkit-scrollbar{
+    width: 4px;
+    background-color: var(--color-black);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--color-gold);
+}
 @media screen and (max-width: 767px){
     .about-container-about-us{
         text-align: left;

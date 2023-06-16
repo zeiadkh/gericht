@@ -5,7 +5,7 @@ import data from "./menu.json"
 
 const Menu = () => {
   return (
-    <div className="menu sec__padding ">
+    <div className="menu sec__padding " id='menu'>
       <Secheading title="Menu that fits you palatte" caught="Today’s Special" />
       <div className="menu-content container">
         <div className="menu-drinks">

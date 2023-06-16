@@ -3,7 +3,7 @@ import './about.css'
 
 const About = () => {
   return (
-    <div className="about sec__padding bg-primary container">
+    <div className="about sec__padding bg-primary container" id="about">
       <div className="g-overlay">
         <img src={images.G} alt="g-overlay" />
       </div>

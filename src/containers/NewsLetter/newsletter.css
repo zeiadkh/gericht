@@ -25,6 +25,7 @@ form input{
     padding: 0.5rem 1rem;
     border: 1px solid #F5EFDB;
     background-color: var(--color-black);
+    color: #fff;
 }
 form input::placeholder{
     color: var(--color-text);

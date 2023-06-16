@@ -3,7 +3,7 @@ import './hero.css'
 
 const Hero = () => {
   return (
-    <div className="hero sec__padding container">
+    <div className="hero sec__padding container" id='home'>
       <div className="hero-container-content">
         <Secheading
           title="Chase the new Flavour"

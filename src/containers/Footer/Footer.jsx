@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer sec__padding bg-primary">
       <div className="footer-container container">
         <div className="footer-contact">
-          <h4>Conact Us</h4>
+          <h5>Conact Us</h5>
           <p>9 W 53rd St, New York, NY 10019, USA</p>
           <span>+1 212-344-1230</span>
           <span>+1 212-555-1230</span>
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-wrk-hours">
-          <h4>Working Hours</h4>
+          <h5>Working Hours</h5>
           <span>Monday-Friday:</span>
           <span>08:00 am -12:00 am</span>
           <span>Saturday-Sunday:</span>

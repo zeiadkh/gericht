@@ -6,7 +6,7 @@ import './awards.css'
 
 const Awards = () => {
   return (
-    <div className="awards sec__padding container bg-primary">
+    <div className="awards sec__padding container bg-primary" id="awards">
       <div className="awards-logo">
         <img src={images.logo} alt="logo" />
       </div>
