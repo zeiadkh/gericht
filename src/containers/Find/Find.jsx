@@ -12,7 +12,7 @@ const Find = () => {
         <h5>Opening Hours</h5>
         <span>Mon - Fri: 10:00 am - 02:00 am</span>
         <span>Sat - Sun: 10:00 am - 03:00 am</span>
-        <button className="main-button">
+        <button id="visit-us" className="main-button">
             Visit Us
         </button>
       </div>

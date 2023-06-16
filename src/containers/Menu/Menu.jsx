@@ -37,7 +37,7 @@ const Menu = () => {
           ))}
         </div>
       </div>
-      <button className="main-button">View More</button>
+      <button id="view-more" className="main-button">View More</button>
     </div>
   );
 }

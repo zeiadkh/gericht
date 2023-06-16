@@ -1,4 +1,3 @@
-import welcome from '../../../assets/welcome.png'
 import Secheading from '../../../components/Secheading/Secheading'
 import './hero.css'
 

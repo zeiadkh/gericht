@@ -42,7 +42,7 @@ const Gallery = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
           mattis ipsum turpis elit elit scelerisque egestas mu.
         </p>
-        <button className="main-button">
+        <button id='view-more' className="main-button">
             View More
         </button>
       </div>

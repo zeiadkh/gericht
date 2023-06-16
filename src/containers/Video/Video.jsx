@@ -22,7 +22,7 @@ const Video = () => {
           muted
         ></video>
         <div className="video-overlay container" style = {!clicked ? overlay: {}}>
-          <button className="container" onClick={handleClick} style = {!clicked? {border: '1px solid var(--color-gold)'}: {}}>
+          <button id ="gallery" className="container" onClick={handleClick} style = {!clicked? {border: '1px solid var(--color-gold)'}: {}}>
             {!clicked ? (
               <TbPlayerPlayFilled size={30} />
             ) : (

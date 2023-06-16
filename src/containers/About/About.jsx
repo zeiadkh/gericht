@@ -18,7 +18,7 @@ const About = () => {
             pharetra adipiscing ultrices vulputate posuere tristique. In sed
             odio nec aliquet eu proin mauris et.
           </p>
-          <button className="main-button">Know More</button>
+          <button id="knowmore" className="main-button">Know More</button>
         </div>
         <div className="knife container">
           <img src={images.knife} alt="" />
