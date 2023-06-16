@@ -1,0 +1,35 @@
+
+.award.container{
+    flex-basis: calc((100% /2) - 2rem );
+    gap: 2rem;
+}
+.award-img{
+    flex: 1;
+}
+.award-img img{
+    width: 80px;
+}
+.award-txt{
+    flex: 1.5;
+}
+.award h5{
+    font-family: var(--font-main);
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: var(--color-gold)
+}
+.award p{
+    font-family: var(--font-sans);
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: var(--color-text)
+}
+
+@media screen and (max-width: 650px) {
+
+    .award.container {
+        flex: 1;
+    }
+    
+}

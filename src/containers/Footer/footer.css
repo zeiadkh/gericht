@@ -1,0 +1,57 @@
+.footer-container.container{
+    gap: 8rem;
+}
+.footer-container > div{
+    flex: 1;
+    text-align: center;
+}
+.footer h4{
+    font-family: var(--font-main);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    color: #F5EFDB;
+    margin-bottom: 1.5rem;
+}
+.footer :is(p, span){
+    font-family: var(--font-sans);
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: var(--color-text);
+    display: block;
+    text-wrap: balance;
+}
+
+.footer-social p{
+    color: #fff !important;
+}
+
+.footer p:last-child{
+    margin: 4rem auto;
+    text-align: center;
+}
+.footer-icon{
+    color: #fff;
+    font-size: 2rem;
+    display: block;
+}
+.footer-icons-wraper{
+    gap: 1rem;
+    flex-direction: row !important;
+}
+.footer-social img{
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .footer-container.container{
+        gap: 2rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer-container.container{
+        gap: 1rem;
+    }
+    
+}

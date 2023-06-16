@@ -1,0 +1,34 @@
+.menu{
+    background-color: var(--color-black);
+    text-align: center;
+}
+.menu-content.container{
+    align-items: start;
+    margin-top: 4rem;
+}
+.menu .hero-spoon{
+    
+    text-align: center;
+}
+.menu-drinks,
+.menu-meals{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.menu-content.container h3{
+    font-family: var(--font-main);
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 1300px){
+    .menu-content.container{
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,58 @@
+.header{
+    background-color: var(--color-black);
+}
+.sec__padding{
+    padding: 4rem 8rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+}
+h1,h2{
+    font-family: var(--font-main);
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 117px;
+    letter-spacing: 0.04em;
+    color: var(--color-gold)
+}
+h2{
+    font-size: 64px;
+}
+.main-button{
+    font-family: var(--font-main);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: var(--btn-font-color);
+    background-color: var(--color-gold);
+    border: none;
+    padding: 0.5rem 2rem;
+}
+.bg-primary{
+    background: center repeat fixed url("https://ik.imagekit.io/3e6idanej/bg.png?updatedAt=1685886351650");
+    background-position: center;
+}
+
+@media (max-width: 767px) {
+    .sec__padding{
+        padding: 2rem 4rem;
+    }
+    .container{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1050px){
+    .hero-container-content{
+        flex-basis: 100%
+    }
+}

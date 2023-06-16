@@ -1,0 +1,41 @@
+.newsletter{
+    max-width: 80vw;
+    flex-direction: column;
+    background-color: var(--color-black);
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin: 0 auto;
+}
+.newsletter > p{
+    font-family: var(--font-sans);
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+form{
+    gap: 2rem;
+    height: fit-content;
+    width: 80%;
+}
+form input{
+    width: 80%;
+    height: 4rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #F5EFDB;
+    background-color: var(--color-black);
+}
+form input::placeholder{
+    color: var(--color-text);
+}
+
+
+@media screen and (max-width: 650px){
+    form{
+        width: 100%;
+    }
+    form input{
+        width: 100%
+    }
+}

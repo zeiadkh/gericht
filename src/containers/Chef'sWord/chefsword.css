@@ -1,0 +1,41 @@
+.chefsword{
+    gap: 6rem;
+}
+.chefsword-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+.chefsword-img{
+    flex: 1;
+}
+.chefsword p{
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-style: italic;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    max-width: 570px;
+}
+.chefsword-quote{
+    display: flex;
+    align-items: start;
+}
+.chefs-signature h4{
+    color: var(--color-gold);
+    font-family: var(--font-main);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+}
+.chefs-signature img{
+    width: 235px;
+    margin-top: 4rem;
+}
+
+.chefsword-quote img{
+    width: 47px;
+    margin: 0 0.5rem;
+}

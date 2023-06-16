@@ -1,0 +1,33 @@
+.find{
+    gap: 2rem;
+}
+.find-content,
+.find-img{
+    flex: 1;
+}
+.find-content > p{
+    font-family: var(--font-sans);
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: var(--color-text);
+    margin-top: 2rem;
+}
+.find-content h5{
+    color: var(--color-gold);
+    font-family: var(--font-main);
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    margin-top: 2rem;
+}
+.find-content span{
+    display: block;
+    font-family: var(--font-sans);
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-top: 1rem;
+}
+.find-content button{
+    margin-top: 4rem;
+}

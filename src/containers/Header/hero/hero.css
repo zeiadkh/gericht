@@ -1,0 +1,31 @@
+
+.hero{
+    gap: 6rem;
+    font-family: var(--font-main);
+    flex-wrap: wrap;
+}
+.hero-container-content{
+    flex-basis: 40%;
+    color: white;
+}
+.hero-container-img{
+    flex: 0.75;
+}
+
+.hero h2{
+    font-size: 90px;
+}
+.hero-container-content > p{
+    font-family: var(--font-sans);
+    font-style: normal;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: var(--color-text);
+    margin: 2rem 0;
+}
+
+@media (max-width: 1050px) {
+    .hero-container-content {
+        flex-basis: 100%
+    }
+}

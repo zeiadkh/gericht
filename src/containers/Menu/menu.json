@@ -1,0 +1,120 @@
+{
+  "drinks": [
+    {
+      "name": "Karkadeh",
+      "price": 5.50,
+      "ingredients": [
+        "dried hibiscus flowers",
+        "sugar",
+        "water"
+      ]
+    },
+    {
+      "name": "Sahlab",
+      "price": 7.99,
+      "ingredients": [
+        "sahlab powder",
+        "milk",
+        "sugar",
+        "rose water",
+        "ground cinnamon"
+      ]
+    },
+    {
+      "name": "Qamar Al-Din",
+      "price": 6.50,
+      "ingredients": [
+        "dried apricot sheets",
+        "sugar",
+        "water",
+        "lemon juice"
+      ]
+    },
+    {
+      "name": "Erk Sous",
+      "price": 8.99,
+      "ingredients": [
+        "licorice root",
+        "water",
+        "sugar",
+        "lemon juice",
+        "mint leaves"
+      ]
+    },
+    {
+      "name": "Sobia",
+      "price": 4.50,
+      "ingredients": [
+        "coconut milk",
+        "sugar",
+        "water",
+        "vanilla extract"
+      ]
+    }
+  ],
+  "meals": [
+    {
+      "name": "Koshari",
+      "price": 7.50,
+      "ingredients": [
+        "rice",
+        "lentils",
+        "macaroni",
+        "tomato sauce",
+        "garlic vinegar",
+        "fried onions"
+      ]
+    },
+    {
+      "name": "Fatta",
+      "price": 9.99,
+      "ingredients": [
+        "pita bread",
+        "rice",
+        "chickpeas",
+        "garlic",
+        "vinegar",
+        "tomato sauce",
+        "fried onions",
+        "meat (optional)"
+      ]
+    },
+    {
+      "name": "Mahshi",
+      "price": 8.50,
+      "ingredients": [
+        "stuffed vegetables (tomatoes, peppers, eggplant)",
+        "rice",
+        "ground beef",
+        "parsley",
+        "onions",
+        "tomato sauce"
+      ]
+    },
+    {
+      "name": "Ful Medames",
+      "price": 6.99,
+      "ingredients": [
+        "fava beans",
+        "olive oil",
+        "garlic",
+        "lemon juice",
+        "cumin",
+        "chopped parsley",
+        "chopped tomatoes"
+      ]
+    },
+    {
+      "name": "Molokhia",
+      "price": 10.50,
+      "ingredients": [
+        "molokhia leaves",
+        "chicken or beef",
+        "garlic",
+        "coriander",
+        "chicken broth",
+        "rice"
+      ]
+    }
+  ]
+}
