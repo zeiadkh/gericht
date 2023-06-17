@@ -62,24 +62,24 @@ const Navbar = () => {
             <IoRestaurantOutline role='button' size={27} onClick={() => setToggeled(false)} />
             <ul className="nav-links">
               <li>
-                <a href="#">Home</a>
+                <a href="#hero">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#">Menu</a>
+                <a href="#menu">Menu</a>
               </li>
               <li>
-                <a href="#">Awards</a>
+                <a href="#awards">Awards</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#newsletter">Contact</a>
               </li>
             </ul>
             <div className="nav-login-small">
-              <a href="#login" className="login">Login/Registeration</a>
-              <a href='/' className="nav-login-book">Book Table</a>
+              <a href="#newsletter" className="login">Login/Registeration</a>
+              <a href='#findus' className="nav-login-book">Book Table</a>
             </div>
           </div>
         )}
