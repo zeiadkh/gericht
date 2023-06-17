@@ -71,7 +71,8 @@
     .menu-item-ingreds p{
         padding: 0.5rem 0 !important;
         border-right: none !important;
-        width: 100%
+        width: 100%;
+        margin: 0;
     }
     .menu span{
         display: none;

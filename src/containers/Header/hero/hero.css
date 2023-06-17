@@ -29,3 +29,8 @@
         flex-basis: 100%
     }
 }
+@media screen and (max-width: 650px){
+    .hero h2{
+        font-size: 36px;
+    }
+}

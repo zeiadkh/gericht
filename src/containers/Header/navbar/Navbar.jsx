@@ -6,6 +6,7 @@ import { IoRestaurantOutline } from "react-icons/io5"
 
 const Navbar = () => {
   const [toggeled, setToggeled] = useState(false);
+  let closeOverlay = () => setToggeled(false)
   return (
     <nav>
       <img src={logo} alt="gericht" />
@@ -29,7 +30,9 @@ const Navbar = () => {
       </ul>
 
       <div className="nav-login">
-        <a href='#newsletter' className="login">Login/Registeration</a>
+        <a href="#newsletter" className="login">
+          Login/Registeration
+        </a>
         <svg
           width="2"
           height="57"
@@ -53,33 +56,61 @@ const Navbar = () => {
           </defs>
         </svg>
 
-        <a href='#findus' className="nav-login-book">Book Table</a>
+        <a href="#findus" className="nav-login-book">
+          Book Table
+        </a>
       </div>
       <div className="nav-links-small">
-        <CgMenuHotdog role='button' size={32} onClick={() => setToggeled(true)} />
+        <CgMenuHotdog
+          role="button"
+          size={32}
+          onClick={() => setToggeled(true)}
+        />
         {toggeled && (
           <div className="nav-links-small-container">
-            <IoRestaurantOutline role='button' size={27} onClick={() => setToggeled(false)} />
+            <IoRestaurantOutline
+              role="button"
+              size={27}
+              onClick={() => setToggeled(false)}
+            />
             <ul className="nav-links">
               <li>
-                <a href="#hero">Home</a>
+                <a href="#hero" onClick={closeOverlay}>
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#about" onClick={closeOverlay}>
+                  About
+                </a>
               </li>
               <li>
-                <a href="#menu">Menu</a>
+                <a href="#menu" onClick={closeOverlay}>
+                  Menu
+                </a>
               </li>
               <li>
-                <a href="#awards">Awards</a>
+                <a href="#awards" onClick={closeOverlay}>
+                  Awards
+                </a>
               </li>
               <li>
-                <a href="#newsletter">Contact</a>
+                <a href="#newsletter" onClick={closeOverlay}>
+                  Contact
+                </a>
               </li>
             </ul>
             <div className="nav-login-small">
-              <a href="#newsletter" className="login">Login/Registeration</a>
-              <a href='#findus' className="nav-login-book">Book Table</a>
+              <a href="#newsletter" className="login" onClick={closeOverlay}>
+                Login/Registeration
+              </a>
+              <a
+                href="#findus"
+                className="nav-login-book"
+                onClick={closeOverlay}
+              >
+                Book Table
+              </a>
             </div>
           </div>
         )}
