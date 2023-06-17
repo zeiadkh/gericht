@@ -27,7 +27,7 @@ const Video = () => {
         >
           <button
             type="button"
-            id='playvideo'
+            aria-label='playvideo'
             className="container"
             onClick={handleClick}
             style={!clicked ? { border: "1px solid var(--color-gold)" } : {}}
