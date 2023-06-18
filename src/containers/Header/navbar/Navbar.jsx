@@ -13,7 +13,7 @@ const Navbar = () => {
 
       <ul className="nav-links">
         <li>
-          <a href="#hero">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
@@ -75,7 +75,7 @@ const Navbar = () => {
             />
             <ul className="nav-links">
               <li>
-                <a href="#hero" onClick={closeOverlay}>
+                <a href="#home" onClick={closeOverlay}>
                   Home
                 </a>
               </li>
