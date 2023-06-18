@@ -48,12 +48,13 @@ nav img{
     right: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     font-family: var(--font-main);
     font-size: 3rem;
     color: var(--color-gold);
     z-index: 3;
+    overflow-y: scroll;
 }
 .nav-links-small svg{
     position: fixed;
@@ -67,7 +68,7 @@ nav img{
 .nav-links-small ul{
     display: flex;
     flex-direction: column;
-    
+    margin-top: 4rem;
 }
 .nav-login-small{
     display: none;
@@ -93,9 +94,13 @@ nav img{
     .nav-login{
         display: none;
     }
+    .nav-links li{
+        margin: 0
+    }
     .nav-login-small {
         display: flex;
         flex-direction: column;
         row-gap: 2rem;
+        margin-top: 4rem;
     }
 }
