@@ -1,6 +1,6 @@
 # gericht
 
-## .This is a restaurant website made using [React js, css, react-icons, image-kit.io]
+## This is a restaurant website made using [React js, css, react-icons, image-kit.io]
 ### [figma design](https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?type=design&node-id=53-2)
 ### [origin website](https://gericht.vercel.app/#login)
 ### some notes:
